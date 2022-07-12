@@ -13,11 +13,11 @@ class AddBusinessCardActivity : AppCompatActivity() {
         insertListeners()
     }
 
-    private fun insertListeners(){
+    private fun insertListeners() {
         binding.btnClose.setOnClickListener {
             finish()
         }
-        binding.btnConfirm.setOnClickListener{
+        binding.btnConfirm.setOnClickListener {
 
         }
     }
